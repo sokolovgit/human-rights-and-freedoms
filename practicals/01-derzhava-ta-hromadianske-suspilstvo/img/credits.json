@@ -1,0 +1,72 @@
+{
+  "sec-power": {
+    "file": "img/sec-power.jpg",
+    "title": "Bundestag Plenarsaal 24.06.2023 1.jpg",
+    "author": "Chaddy",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundestag_Plenarsaal_24.06.2023_1.jpg"
+  },
+  "sec-federal": {
+    "file": "img/sec-federal.jpg",
+    "title": "20220811 Bundesrat building 01.jpg",
+    "author": "Flocci Nivis",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:20220811_Bundesrat_building_01.jpg"
+  },
+  "sec-rights": {
+    "file": "img/sec-rights.jpg",
+    "title": "Bundesverfassungsgericht Karlsruhe.jpg",
+    "author": "Asmodea Oaktree",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundesverfassungsgericht_Karlsruhe.jpg"
+  },
+  "president": {
+    "file": "img/president.jpg",
+    "title": "Frank-Walter Steinmeier - 2018 (cropped).jpg",
+    "author": "http://www.president.gov.ua/",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Frank-Walter_Steinmeier_-_2018_(cropped).jpg"
+  },
+  "bundestag": {
+    "file": "img/bundestag.jpg",
+    "title": "Bundestag Plenarsaal 24.06.2023 3.jpg",
+    "author": "Chaddy",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundestag_Plenarsaal_24.06.2023_3.jpg"
+  },
+  "bundesrat": {
+    "file": "img/bundesrat.jpg",
+    "title": "Bundesrat Plenarsaal 1.jpg",
+    "author": "Photo: Andreas Praefcke",
+    "licence": "CC BY 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundesrat_Plenarsaal_1.jpg"
+  },
+  "court": {
+    "file": "img/court.jpg",
+    "title": "Karlsruhe - Bundesverfassungsgericht, Dienstsitz Schlossbezirk - 20200909090945.jpg",
+    "author": "DrHackbert",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Karlsruhe_-_Bundesverfassungsgericht,_Dienstsitz_Schlossbezirk_-_20200909090945.jpg"
+  },
+  "cover": {
+    "file": "img/cover.jpg",
+    "title": "Reichstag building, Berlin, Germany (wide view) 01.jpg",
+    "author": "Rafael Lemieszek",
+    "licence": "CC BY-SA 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Reichstag_building,_Berlin,_Germany_(wide_view)_01.jpg"
+  },
+  "sec-organs": {
+    "file": "img/sec-organs.jpg",
+    "title": "Bundeskanzleramt - Berlin - Deutschland - Germany - 05.jpg",
+    "author": "Norbert Nagel",
+    "licence": "CC BY-SA 3.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Bundeskanzleramt_-_Berlin_-_Deutschland_-_Germany_-_05.jpg"
+  },
+  "chancellor": {
+    "file": "img/chancellor.jpg",
+    "title": "Summit on European Digital Sovereignty, Berlin - 2025 (cropped).jpg",
+    "author": "Stefanie Loos / European Union, 2025 / EC - Audiovisual Service",
+    "licence": "CC BY 4.0",
+    "page": "https://commons.wikimedia.org/wiki/File:Summit_on_European_Digital_Sovereignty,_Berlin_-_2025_(cropped).jpg"
+  }
+}

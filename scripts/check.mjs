@@ -22,7 +22,7 @@ const probe = `
       const limit = box.bottom - padB;
       let deepest = 0;
       s.querySelectorAll('*').forEach(el => {
-        if (el.closest('.slide__num, .slide__kicker')) return;
+        if (el.closest('.slide__num, .slide__kicker, .credit')) return;
         const r = el.getBoundingClientRect();
         if (r.height && r.bottom > deepest) deepest = r.bottom;
       });

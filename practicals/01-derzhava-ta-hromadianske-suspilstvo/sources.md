@@ -84,6 +84,66 @@
 16. **Робоча програма навчальної дисципліни «Права і свободи людини»** (силабус),
     кафедра ІГАП, денна форма, 2026/27 н. р. — структура практичного заняття та вимоги до доповіді.
 
+## Зображення
+
+Усі знімки — з Wikimedia Commons, під вільними ліцензіями (CC BY, CC BY-SA, CC0).
+Файли зберігаються локально в `img/`, автор і ліцензія вказані підписом на кожному слайді.
+Портрет канцлера обрізаний із загального кадру саміту; інші зображення не змінювалися,
+окрім зміни розміру та стиснення.
+
+**Слайд 1 — обкладинка**  
+`img/cover.jpg` — Reichstag building, Berlin, Germany (wide view) 01.jpg  
+Автор: Rafael Lemieszek · Ліцензія: CC BY-SA 4.0  
+<https://commons.wikimedia.org/wiki/File:Reichstag_building,_Berlin,_Germany_(wide_view)_01.jpg>
+
+**Слайд 3 — роздільник «Форма правління»**  
+`img/sec-power.jpg` — Bundestag Plenarsaal 24.06.2023 1.jpg  
+Автор: Chaddy · Ліцензія: CC BY-SA 4.0  
+<https://commons.wikimedia.org/wiki/File:Bundestag_Plenarsaal_24.06.2023_1.jpg>
+
+**Слайд 6 — роздільник «Державний устрій»**  
+`img/sec-federal.jpg` — 20220811 Bundesrat building 01.jpg  
+Автор: Flocci Nivis · Ліцензія: CC BY 4.0  
+<https://commons.wikimedia.org/wiki/File:20220811_Bundesrat_building_01.jpg>
+
+**Слайд 9 — роздільник «Органи влади»**  
+`img/sec-organs.jpg` — Bundeskanzleramt - Berlin - Deutschland - Germany - 05.jpg  
+Автор: Norbert Nagel · Ліцензія: CC BY-SA 3.0  
+<https://commons.wikimedia.org/wiki/File:Bundeskanzleramt_-_Berlin_-_Deutschland_-_Germany_-_05.jpg>
+
+**Слайд 16 — роздільник «Права громадян»**  
+`img/sec-rights.jpg` — Bundesverfassungsgericht Karlsruhe.jpg  
+Автор: Asmodea Oaktree · Ліцензія: CC BY 4.0  
+<https://commons.wikimedia.org/wiki/File:Bundesverfassungsgericht_Karlsruhe.jpg>
+
+**Слайд 10 — Франк-Вальтер Штайнмаєр**  
+`img/president.jpg` — Frank-Walter Steinmeier - 2018 (cropped).jpg  
+Автор: http://www.president.gov.ua/ · Ліцензія: CC BY 4.0  
+<https://commons.wikimedia.org/wiki/File:Frank-Walter_Steinmeier_-_2018_(cropped).jpg>
+
+**Слайд 11 — пленарна зала Бундестагу**  
+`img/bundestag.jpg` — Bundestag Plenarsaal 24.06.2023 3.jpg  
+Автор: Chaddy · Ліцензія: CC BY-SA 4.0  
+<https://commons.wikimedia.org/wiki/File:Bundestag_Plenarsaal_24.06.2023_3.jpg>
+
+**Слайд 12 — пленарна зала Бундесрату**  
+`img/bundesrat.jpg` — Bundesrat Plenarsaal 1.jpg  
+Автор: Photo: Andreas Praefcke · Ліцензія: CC BY 3.0  
+<https://commons.wikimedia.org/wiki/File:Bundesrat_Plenarsaal_1.jpg>
+
+**Слайд 13 — Фрідріх Мерц**  
+`img/chancellor.jpg` — Summit on European Digital Sovereignty, Berlin - 2025 (cropped).jpg  
+Автор: Stefanie Loos / European Union, 2025 / EC - Audiovisual Service · Ліцензія: CC BY 4.0  
+<https://commons.wikimedia.org/wiki/File:Summit_on_European_Digital_Sovereignty,_Berlin_-_2025_(cropped).jpg>
+
+**Слайд 14 — Федеральний конституційний суд**  
+`img/court.jpg` — Karlsruhe - Bundesverfassungsgericht, Dienstsitz Schlossbezirk - 20200909090945.jpg  
+Автор: DrHackbert · Ліцензія: CC BY-SA 4.0  
+<https://commons.wikimedia.org/wiki/File:Karlsruhe_-_Bundesverfassungsgericht,_Dienstsitz_Schlossbezirk_-_20200909090945.jpg>
+
+Для ліцензій CC BY-SA похідні матеріали (ця презентація в частині відповідних зображень)
+поширюються на тих самих умовах.
+
 ## Примітка про перевірку
 
 Дані про склад уряду, президента, результати виборів і статистику суду звірялися станом на
