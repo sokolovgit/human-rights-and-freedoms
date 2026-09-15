@@ -1,0 +1,5 @@
+out/
+docs/refs/
+.DS_Store
+node_modules/
+.shot.html
