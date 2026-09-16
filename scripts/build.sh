@@ -25,6 +25,12 @@ build_one() {
 
   echo "[$slug] fit"
   node "$ROOT/scripts/check.mjs" "$dir" || true
+
+  # Optional: only for venues that insist on PowerPoint.
+  if python3 -c "import pptx" 2>/dev/null; then
+    echo "[$slug] pptx"
+    python3 "$ROOT/scripts/to-pptx.py" "$num"
+  fi
 }
 
 target="${1:-all}"
