@@ -1,0 +1,566 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<title>Правова система Німеччини — Практичне 2</title>
+<link rel="stylesheet" href="../../shared/theme.css">
+<style>
+  /* Розмітка структури норми: гіпотеза, диспозиція, санкція */
+  .n-hyp { background: #fff1bf; }
+  .n-dis { background: #dfe7fb; }
+  .n-san { background: #fde0dc; }
+  .n-hyp, .n-dis, .n-san { padding: 1px 5px; border-radius: 4px; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
+  .norm { font-size: 22px; line-height: 1.6; color: var(--ink); margin: 0 0 26px; max-width: 46em; }
+  .part { border-left: 5px solid var(--rule); padding: 14px 20px; border-radius: 0 12px 12px 0; background: #fff; }
+  .part--hyp { border-color: #e8b923; }
+  .part--dis { border-color: var(--accent); }
+  .part--san { border-color: #d9534f; }
+  .part__head { font-weight: 700; font-size: 19px; margin: 0 0 6px; color: var(--ink); }
+  .part p { margin: 0; font-size: 17.5px; line-height: 1.42; color: var(--ink-soft); }
+  table.tbl.tbl--tight td { padding: 6px 12px 6px 0; font-size: 16px; line-height: 1.33; vertical-align: top; }
+  table.tbl.tbl--tight th { font-size: 14px; }
+</style>
+</head>
+<body class="deck">
+
+<!-- 1 -->
+<section class="slide slide--photo" style="background-image:url('img/bgh-karlsruhe.jpg')">
+  <p class="eyebrow">КПІ ім. Ігоря Сікорського · Практичне 2</p>
+  <h1 class="hero">Правова система<br>Німеччини</h1>
+  <div class="stack" style="margin-top:32px">
+    <p class="lead">Загальна характеристика правової системи держави: правова сім'я, джерела права,
+      законотворення, суди та захист прав. Практичне завдання — розбір норми ст. 361 КК України.</p>
+  </div>
+  <p class="byline">Виконав: <b>Соколов Олександр</b>, студент групи ІП-33<br>Дисципліна «Права і свободи людини»</p>
+  <span class="credit">Фото: Федеральний верховний суд, Карлсруе · Sitacuisses · CC BY-SA 3.0 DE · Wikimedia Commons</span>
+  <span class="slide__kicker">Право як інструмент регулювання</span>
+  <span class="slide__num"></span>
+</section>
+
+<!-- 2 -->
+<section class="slide">
+  <div class="rule"></div>
+  <h1 class="title">Романо-германська правова сім'я</h1>
+  <div class="body">
+    <div class="cols cols--wide">
+      <div class="stack" style="gap:18px">
+        <div class="vs__side">
+          <p class="vs__head">Головне джерело — закон, а не прецедент</p>
+          <ul>
+            <li>Право кодифіковане: суддя застосовує писану норму до фактів справи</li>
+            <li>На відміну від англосаксонського права, суди не зобов'язані загалом слідувати
+              прецедентам вищих інстанцій і власним попереднім рішенням</li>
+            <li>Сама ідея правової держави (Rechtsstaat) сформувалась на ґрунті
+              континентального римського права</li>
+          </ul>
+        </div>
+        <p style="font-size:17px;color:var(--ink-mute);margin:0">За: Bundeszentrale für politische Bildung,
+          «Handwörterbuch des politischen Systems» — статті «Gerichte», «Rechtsstaat»</p>
+      </div>
+      <div class="stack">
+        <div class="card">
+          <p class="card__label">Федеральні закони</p>
+          <p class="card__value">1 797</p>
+          <p>з 52 401 окремою нормою — чинні станом на 24.05.2024</p>
+        </div>
+        <div class="card">
+          <p class="card__label">Федеральні постанови</p>
+          <p class="card__value">2 866</p>
+          <p>з 44 475 нормами. Разом майже 97 тис. норм лише на рівні федерації</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <span class="slide__kicker">Німеччина · Практичне 2</span>
+  <span class="slide__num"></span>
+</section>
+
+<!-- 3 -->
+<section class="slide slide--photo" style="background-image:url('img/bgb-1896.jpg');background-position:center 30%">
+  <p class="eyebrow">Частина I</p>
+  <h1 class="hero">Джерела права<br>та їх ієрархія</h1>
+  <span class="credit">Публікація BGB у Reichsgesetzblatt, 24.08.1896 · Public domain · Wikimedia Commons</span>
+  <span class="slide__kicker">Німеччина · Практичне 2</span>
+  <span class="slide__num"></span>
+</section>
+
+<!-- 4 -->
+<section class="slide">
+  <div class="rule"></div>
+  <h1 class="title">Ієрархія джерел права</h1>
+  <div class="body">
+    <svg viewBox="0 0 1104 440" width="1104" height="440" style="display:block;margin:0 auto" role="img" aria-label="Ієрархія джерел права Німеччини">
+      <defs>
+        <style>
+          .tr { fill:#fff; stroke:#dfe4ea; stroke-width:1.5 }
+          .tr-top { fill:#0f2a6b; stroke:#0f2a6b }
+          .tr-eu { fill:#e8edfb; stroke:#9dbaff; stroke-dasharray:6 5 }
+          .tn { font-family:Inter,sans-serif; font-size:20px; font-weight:650; fill:#14181f }
+          .tw { fill:#fff }
+          .ts { font-family:Inter,sans-serif; font-size:15.5px; fill:#46505f }
+          .tsw { fill:#cfe0ff }
+          .rf { font-family:Inter,sans-serif; font-size:15.5px; font-weight:620; fill:#1d4ed8 }
+        </style>
+      </defs>
+      <rect class="tr tr-eu" x="372" y="0" width="360" height="52" rx="10"/>
+      <text class="tn" x="552" y="23" text-anchor="middle">Право Європейського Союзу</text>
+      <text class="ts" x="552" y="42" text-anchor="middle">пріоритет застосування, а не скасування</text>
+      <text class="rf" x="748" y="32">ст. 23 · BVerfG 2 BvE 2/08</text>
+
+      <rect class="tr tr-top" x="332" y="62" width="440" height="52" rx="10"/>
+      <text class="tn tw" x="552" y="85" text-anchor="middle">Основний Закон (1949)</text>
+      <text class="ts tsw" x="552" y="104" text-anchor="middle">найвища сила; рішення суду обов'язкові</text>
+      <text class="rf" x="788" y="94">§ 31 BVerfGG</text>
+
+      <rect class="tr" x="292" y="124" width="520" height="52" rx="10"/>
+      <text class="tn" x="552" y="147" text-anchor="middle">Загальні норми міжнародного права</text>
+      <text class="ts" x="552" y="166" text-anchor="middle">частина федерального права, мають перевагу перед законами</text>
+      <text class="rf" x="828" y="156">ст. 25</text>
+
+      <rect class="tr" x="252" y="186" width="600" height="52" rx="10"/>
+      <text class="tn" x="552" y="209" text-anchor="middle">Федеральні закони · кодекси</text>
+      <text class="ts" x="552" y="228" text-anchor="middle">ухвалює Бундестаг за участі Бундесрату</text>
+      <text class="rf" x="868" y="218">ст. 70–78</text>
+
+      <rect class="tr" x="212" y="248" width="680" height="52" rx="10"/>
+      <text class="tn" x="552" y="271" text-anchor="middle">Постанови (Rechtsverordnungen)</text>
+      <text class="ts" x="552" y="290" text-anchor="middle">лише за уповноваженням закону, який визначає їх зміст, мету й межі</text>
+      <text class="rf" x="908" y="280">ст. 80</text>
+
+      <rect class="tr" x="172" y="310" width="760" height="52" rx="10"/>
+      <text class="tn" x="552" y="333" text-anchor="middle">Право земель — конституції, закони, постанови</text>
+      <text class="ts" x="552" y="352" text-anchor="middle">«Федеральне право має перевагу над правом земель»</text>
+      <text class="rf" x="948" y="342">ст. 31</text>
+
+      <rect class="tr" x="132" y="372" width="840" height="52" rx="10"/>
+      <text class="tn" x="552" y="395" text-anchor="middle">Статути громад (Satzungen)</text>
+      <text class="ts" x="552" y="414" text-anchor="middle">місцеве самоврядування «в межах законів»</text>
+      <text class="rf" x="988" y="404">ст. 28 II</text>
+    </svg>
+  </div>
+  <span class="slide__kicker">Німеччина · Практичне 2</span>
+  <span class="slide__num"></span>
+</section>
+
+<!-- 5 -->
+<section class="slide">
+  <div class="rule"></div>
+  <h1 class="title">Великі кодифікації кінця XIX століття</h1>
+  <div class="body">
+    <p class="lead" style="max-width:40em;margin-bottom:28px">Ядро приватного і процесуального права досі становлять
+      кодекси Німецької імперії. Вони діють у зміненій редакції, але їх структура збереглась.</p>
+    <div class="grid" style="grid-template-columns:repeat(4,1fr)">
+      <div class="card">
+        <p class="card__label">BGB · Цивільний кодекс</p>
+        <p class="card__value">1900</p>
+        <p>Підписано 18.08.1896, чинний з 1 січня 1900 року<span class="ref">ст. 1 EGBGB</span></p>
+      </div>
+      <div class="card">
+        <p class="card__label">HGB · Торговий кодекс</p>
+        <p class="card__value">1900</p>
+        <p>Підписано 10.05.1897, набрав чинності одночасно з BGB<span class="ref">ст. 1 EGHGB</span></p>
+      </div>
+      <div class="card">
+        <p class="card__label">StGB · Кримінальний кодекс</p>
+        <p class="card__value">1871</p>
+        <p>Підписано 15.05.1871 — найстаріший із чинних кодексів</p>
+      </div>
+      <div class="card">
+        <p class="card__label">ZPO · StPO · процес</p>
+        <p class="card__value">1879</p>
+        <p>Імперські закони про судоустрій, цивільний і кримінальний процес — з 1 жовтня 1879 року</p>
+      </div>
+    </div>
+    <p style="font-size:18px;color:var(--ink-soft);margin:26px 0 0;max-width:52em">Кодифікація — вища форма
+      систематизації: норми не просто збирають, а переробляють в одне ціле, усуваючи протиріччя.
+      Звідси формальна визначеність і системність права як його ознаки.</p>
+  </div>
+  <span class="slide__kicker">Німеччина · Практичне 2</span>
+  <span class="slide__num"></span>
+</section>
+
+<!-- 6 -->
+<section class="slide center">
+  <div class="rule"></div>
+  <blockquote class="quote">«Законодавча влада зв'язана конституційним ладом, виконавча влада і правосуддя —
+    законом і правом.»</blockquote>
+  <p class="quote__src">Основний Закон ФРН, ст. 20 абз. 3 · «an Gesetz und Recht gebunden»</p>
+  <p style="font-size:20px;line-height:1.5;color:var(--ink-soft);margin:34px 0 0;max-width:44em">
+    Відповідь на питання «право чи закон» записана в самій конституції: суд зв'язаний не лише
+    законом, а й правом. Закон — форма, у якій держава фіксує право, але не все, що має форму
+    закону, є правом. Цю формулу пояснюють досвідом нацистської диктатури, коли беззаконня мало форму законів.</p>
+  <span class="slide__kicker">Німеччина · Практичне 2</span>
+  <span class="slide__num"></span>
+</section>
+
+<!-- 7 -->
+<section class="slide slide--photo" style="background-image:url('img/bgbl-1949.jpg');background-position:center 20%">
+  <p class="eyebrow">Частина II</p>
+  <h1 class="hero">Як створюється<br>закон</h1>
+  <span class="credit">Bundesgesetzblatt № 1, 23.05.1949 — публікація Основного Закону · Public domain · Wikimedia Commons</span>
+  <span class="slide__kicker">Німеччина · Практичне 2</span>
+  <span class="slide__num"></span>
+</section>
+
+<!-- 8 -->
+<section class="slide">
+  <div class="rule"></div>
+  <h1 class="title">Хто має право ухвалювати закони</h1>
+  <div class="body">
+    <p class="lead" style="max-width:40em;margin-bottom:28px">Загальне правило — на користь земель:
+      вони законодавствують, якщо Основний Закон не надає цю сферу федерації<span class="ref">ст. 70</span></p>
+    <div class="vs">
+      <div class="vs__side">
+        <p class="vs__head">Виключна компетенція федерації<span class="ref">ст. 71, 73</span></p>
+        <ul>
+          <li>Закордонні справи, оборона, громадянство, валюта</li>
+          <li>Землі діють тут лише за прямим уповноваженням федерального закону</li>
+        </ul>
+      </div>
+      <div class="vs__side vs__side--muted">
+        <p class="vs__head">Конкуруюча компетенція<span class="ref">ст. 72, 74</span></p>
+        <ul>
+          <li>Цивільне і кримінальне право, судоустрій, судовий процес</li>
+          <li>Землі законодавствують, доки й оскільки федерація не використала свою компетенцію.
+            Тому BGB і StGB — федеральні закони</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <span class="slide__kicker">Німеччина · Практичне 2</span>
+  <span class="slide__num"></span>
+</section>
+
+<!-- 9 -->
+<section class="slide">
+  <div class="rule"></div>
+  <h1 class="title">Законодавча процедура</h1>
+  <div class="body">
+    <div class="cols cols--wide">
+      <ol class="steps">
+        <li><strong>Ініціатива:</strong> федеральний уряд, депутати Бундестагу або Бундесрат<span class="ref">ст. 76</span></li>
+        <li><strong>Ухвалення</strong> Бундестагом<span class="ref">ст. 77 I</span></li>
+        <li><strong>Бундесрат:</strong> для «законів згоди» потрібна його згода; для інших — лише
+          право заперечити протягом 2 тижнів, яке Бундестаг може подолати. Спори — через
+          Погоджувальний комітет<span class="ref">ст. 77 II–III, 78</span></li>
+        <li><strong>Підпис</strong> федерального президента після контрасигнації<span class="ref">ст. 82 I</span></li>
+        <li><strong>Оприлюднення</strong> у Bundesgesetzblatt</li>
+      </ol>
+      <div class="stack">
+        <div class="card">
+          <p class="card__label">Bundesgesetzblatt</p>
+          <p class="card__value">1.01.2023</p>
+          <p>Відтоді виходить лише в електронній формі на recht.bund.de (Verkündungs- und Bekanntmachungsgesetz)</p>
+        </div>
+        <div class="card">
+          <p class="card__label">Набрання чинності</p>
+          <p class="card__value">14-й день</p>
+          <p>після виходу номера, якщо сам закон не визначає іншої дати<span class="ref">ст. 82 II</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <span class="slide__kicker">Німеччина · Практичне 2</span>
+  <span class="slide__num"></span>
+</section>
+
+<!-- 10 -->
+<section class="slide slide--photo" style="background-image:url('img/bverwg-leipzig.jpg')">
+  <p class="eyebrow">Частина III</p>
+  <h1 class="hero">Суди<br>і захист права</h1>
+  <span class="credit">Фото: Федеральний адміністративний суд, Лейпциг · Tuxyso · CC BY-SA 3.0 · Wikimedia Commons</span>
+  <span class="slide__kicker">Німеччина · Практичне 2</span>
+  <span class="slide__num"></span>
+</section>
+
+<!-- 11 -->
+<section class="slide">
+  <div class="rule"></div>
+  <h1 class="title">Судова система: п'ять юрисдикцій</h1>
+  <div class="body">
+    <p class="lead" style="max-width:42em;margin-bottom:24px">Правосуддя здійснюють Конституційний суд,
+      федеральні суди і суди земель<span class="ref">ст. 92</span>. На вершині кожної з п'яти гілок —
+      окремий верховний суд федерації<span class="ref">ст. 95 I</span></p>
+    <div class="grid" style="grid-template-columns:repeat(3,1fr)">
+      <div class="card" style="background:var(--accent-deep);border-color:var(--accent-deep)">
+        <p class="card__label" style="color:#9dbaff">Конституційна юрисдикція</p>
+        <p class="card__value" style="color:#fff">BVerfG</p>
+        <p style="color:#cfe0ff">Федеральний конституційний суд · Карлсруе</p>
+      </div>
+      <div class="card">
+        <p class="card__label">Цивільні та кримінальні справи</p>
+        <p class="card__value">BGH</p>
+        <p>Федеральний верховний суд · Карлсруе</p>
+      </div>
+      <div class="card">
+        <p class="card__label">Адміністративні справи</p>
+        <p class="card__value">BVerwG</p>
+        <p>Федеральний адміністративний суд · Лейпциг</p>
+      </div>
+      <div class="card">
+        <p class="card__label">Податки і збори</p>
+        <p class="card__value">BFH</p>
+        <p>Федеральний фінансовий суд · Мюнхен</p>
+      </div>
+      <div class="card">
+        <p class="card__label">Трудові спори</p>
+        <p class="card__value">BAG</p>
+        <p>Федеральний трудовий суд · Ерфурт</p>
+      </div>
+      <div class="card">
+        <p class="card__label">Соціальне забезпечення</p>
+        <p class="card__value">BSG</p>
+        <p>Федеральний соціальний суд · Кассель</p>
+      </div>
+    </div>
+  </div>
+  <span class="slide__kicker">Німеччина · Практичне 2</span>
+  <span class="slide__num"></span>
+</section>
+
+<!-- 12 -->
+<section class="slide">
+  <div class="rule"></div>
+  <h1 class="title">Гарантії та способи захисту прав</h1>
+  <div class="body">
+    <div class="kv" style="--k:260px">
+      <div class="kv__row"><div class="kv__k">Шлях до суду</div>
+        <div class="kv__v">Кожен, чиї права порушила публічна влада, може звернутися до суду<span class="ref">ст. 19 IV</span></div></div>
+      <div class="kv__row"><div class="kv__k">Незалежність суддів</div>
+        <div class="kv__v">Судді незалежні й підкоряються лише закону<span class="ref">ст. 97 I</span></div></div>
+      <div class="kv__row"><div class="kv__k">Законний суддя</div>
+        <div class="kv__v">Надзвичайні суди заборонені, нікого не можна позбавити законного судді<span class="ref">ст. 101 I</span></div></div>
+      <div class="kv__row"><div class="kv__k">Без закону немає кари</div>
+        <div class="kv__v">Діяння карається, лише якщо його караність була визначена законом до вчинення;
+          двічі за одне діяння не карають<span class="ref">ст. 103 II–III</span></div></div>
+      <div class="kv__row"><div class="kv__k">Контроль закону</div>
+        <div class="kv__v">Суд, який вважає закон неконституційним, зупиняє справу і звертається до
+          Конституційного суду<span class="ref">ст. 100 I</span></div></div>
+      <div class="kv__row"><div class="kv__k">Конституційна скарга</div>
+        <div class="kv__v">Може подати кожен після вичерпання інших засобів<span class="ref">ст. 94 I 4a</span><span class="ref">§ 90 BVerfGG</span>.
+          З грудня 2024 повноваження суду перенесено зі ст. 93 до ст. 94</div></div>
+    </div>
+  </div>
+  <span class="slide__kicker">Німеччина · Практичне 2</span>
+  <span class="slide__num"></span>
+</section>
+
+<!-- 13 -->
+<section class="slide">
+  <div class="rule"></div>
+  <h1 class="title">Хто застосовує право</h1>
+  <div class="body">
+    <div style="display:grid;grid-template-columns:1fr 440px;gap:44px;height:100%">
+      <div class="stack" style="gap:18px">
+        <div class="grid" style="grid-template-columns:1fr 1fr">
+          <div class="card">
+            <p class="card__label">Судді</p>
+            <p class="card__value">21 954</p>
+            <p>штатних одиниць на 31.12.2024, з них 50,75 % — жінки; на рівні федерації лише 462</p>
+          </div>
+          <div class="card">
+            <p class="card__label">Прокурори</p>
+            <p class="card__value">6 995</p>
+            <p>штатних одиниць за тією ж статистикою Федерального відомства юстиції</p>
+          </div>
+        </div>
+        <div class="vs__side">
+          <p class="vs__head">Два державні іспити<span class="ref">§ 5 DRiG</span></p>
+          <ul>
+            <li>Суддею може стати той, хто закінчив юридичний факультет першим іспитом і
+              підготовчу службу — другим державним іспитом</li>
+            <li>Між іспитами — дворічна підготовча служба: цивільний суд, прокуратура або кримінальний суд, адміністрація, адвокатське бюро<span class="ref">§ 5b DRiG</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="figure">
+        <div class="figure__img"><img src="img/bag-erfurt.jpg" alt="Федеральний трудовий суд, Ерфурт"></div>
+        <p class="figure__cap"><b>Федеральний трудовий суд, Ерфурт</b><br>Найвища інстанція у трудових спорах.<br>
+          Фото: Alupus · CC BY-SA 3.0</p>
+      </div>
+    </div>
+  </div>
+  <span class="slide__kicker">Німеччина · Практичне 2</span>
+  <span class="slide__num"></span>
+</section>
+
+<!-- 14 -->
+<section class="slide">
+  <div class="rule"></div>
+  <h1 class="title">Узагальнена оцінка правової системи</h1>
+  <div class="body">
+    <div class="vs" style="margin-bottom:26px">
+      <div class="vs__side">
+        <p class="vs__head">Сильні сторони</p>
+        <ul>
+          <li>Кодифіковане, системне право з чіткою ієрархією джерел</li>
+          <li>Суд зв'язаний не лише законом, а й правом</li>
+          <li>П'ять спеціалізованих юрисдикцій і конституційна скарга для кожного</li>
+          <li>Строга гарантія «немає кари без закону»</li>
+        </ul>
+      </div>
+      <div class="vs__side vs__side--muted">
+        <p class="vs__head">Виклики</p>
+        <ul>
+          <li>Обсяг: майже 97 тис. норм лише на федеральному рівні</li>
+          <li>Два рівні законодавства — федерація і 16 земель</li>
+          <li>Співіснування з правом ЄС, що має пріоритет застосування</li>
+        </ul>
+      </div>
+    </div>
+    <p style="font-size:21px;line-height:1.5;color:var(--ink);margin:0;max-width:46em">
+      <strong>Висновок:</strong> право в Німеччині регулює відносини передусім через закон, а стійкість
+      системі дають процедури — хто і як ухвалює норму та хто перевіряє її відповідність праву.</p>
+  </div>
+  <span class="slide__kicker">Німеччина · Практичне 2</span>
+  <span class="slide__num"></span>
+</section>
+
+<!-- 15 -->
+<section class="slide slide--photo" style="background-image:url('img/verkhovna-rada.jpg');background-position:center 45%">
+  <p class="eyebrow">Практичне завдання 2</p>
+  <h1 class="hero">Структура норми:<br>ст. 361 КК України</h1>
+  <div class="stack" style="margin-top:28px">
+    <p class="lead">Несанкціоноване втручання в роботу інформаційних, електронних комунікаційних,
+      інформаційно-комунікаційних систем і мереж</p>
+  </div>
+  <span class="credit">Фото: будівля Верховної Ради України, вид з вулиці Грушевського · Wadco2 · CC BY-SA 3.0 · Wikimedia Commons</span>
+  <span class="slide__kicker">ст. 361 КК · Практичне 2</span>
+  <span class="slide__num"></span>
+</section>
+
+<!-- 16 -->
+<section class="slide">
+  <div class="rule"></div>
+  <h1 class="title">Частина перша: якщо — то — інакше</h1>
+  <div class="body">
+    <p class="norm"><span class="n-hyp">[Особа, яка досягла 16 років і є осудною,]</span>
+      <span class="n-dis">«Несанкціоноване втручання в роботу інформаційних (автоматизованих), електронних
+      комунікаційних, інформаційно-комунікаційних систем, електронних комунікаційних мереж</span> —
+      <span class="n-san">карається штрафом від однієї тисячі до трьох тисяч неоподатковуваних мінімумів
+      доходів громадян або пробаційним наглядом на строк до трьох років, або обмеженням волі на той самий строк.»</span></p>
+    <div class="grid" style="grid-template-columns:repeat(3,1fr);gap:18px">
+      <div class="part part--hyp">
+        <p class="part__head">Гіпотеза — прихована</p>
+        <p>У статті не записана. Випливає із Загальної частини: суб'єкт — осудна фізична особа від 16 років
+          <span class="ref">ст. 18, 19, 22</span>, діяння без дозволу власника системи</p>
+      </div>
+      <div class="part part--dis">
+        <p class="part__head">Диспозиція — проста, забороняюча</p>
+        <p>Називає заборонене діяння, не розкриваючи його ознак. Правило поведінки — «не втручайся»:
+          норма реалізується через дотримання</p>
+      </div>
+      <div class="part part--san">
+        <p class="part__head">Санкція — альтернативна</p>
+        <p>Три види покарання на вибір суду, у межах «від — до»: відносно визначена.
+          Штраф — 17–51 тис. грн (1 НМДГ = 17 грн)</p>
+      </div>
+    </div>
+  </div>
+  <span class="slide__kicker">ст. 361 КК · Практичне 2</span>
+  <span class="slide__num"></span>
+</section>
+
+<!-- 17 -->
+<section class="slide">
+  <div class="rule"></div>
+  <h1 class="title">Як гіпотеза «важчає» від частини до частини</h1>
+  <div class="body">
+    <table class="tbl tbl--tight">
+      <thead><tr><th style="width:52px">Ч.</th><th>Додаткова обставина (гіпотеза)</th><th style="width:38%">Санкція</th><th style="width:150px">Тяжкість, ст. 12</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>Базовий склад: саме втручання</td><td>Штраф 1–3 тис. НМДГ, пробаційний нагляд або обмеження волі до 3 років</td><td>кримінальний проступок</td></tr>
+        <tr><td>2</td><td>Повторно або за попередньою змовою групою осіб</td><td>Штраф 3–7 тис. НМДГ, обмеження або позбавлення волі від 2 до 5 років</td><td>нетяжкий злочин</td></tr>
+        <tr><td>3</td><td>Призвело до витоку, втрати, підробки, блокування інформації, спотворення її обробки чи маршрутизації</td><td>Штраф 7–10 тис. НМДГ або позбавлення волі від 3 до 8 років, можливе позбавлення права обіймати посади</td><td>тяжкий злочин</td></tr>
+        <tr><td>4</td><td>Значна шкода (від 300 НМДГ — 499 200 грн у 2026) або небезпека аварій, катастроф, загибелі людей</td><td>Позбавлення волі від 8 до 12 років, можливе позбавлення права обіймати посади</td><td>особливо тяжкий</td></tr>
+        <tr><td>5</td><td>Дії за ч. 3 або 4 під час воєнного стану</td><td>Позбавлення волі від 10 до 15 років з обов'язковим позбавленням права</td><td>особливо тяжкий</td></tr>
+        <tr><td>6</td><td>Пошук вразливостей у встановленому порядку</td><td colspan="2">Не вважається втручанням — умова, за якої норма не застосовується</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <span class="slide__kicker">ст. 361 КК · Практичне 2</span>
+  <span class="slide__num"></span>
+</section>
+
+<!-- 18 -->
+<section class="slide">
+  <div class="rule"></div>
+  <h1 class="title">Що показує розбір</h1>
+  <div class="body">
+    <ul class="bullets">
+      <li><strong>Гіпотеза кримінально-правової норми винесена в Загальну частину.</strong> Вік, осудність,
+        вина однакові для всіх статей, тому їх не повторюють у кожній. Стаття Особливої частини описує
+        лише діяння і покарання.</li>
+      <li><strong>Кожна наступна частина додає обставину до гіпотези й посилює санкцію:</strong> від кримінального
+        проступку в ч. 1 до особливо тяжкого злочину в ч. 4–5. Санкція сама визначає ступінь тяжкості за ст. 12.</li>
+      <li><strong>Караність визначається тільки Кримінальним кодексом, аналогія заборонена</strong><span class="ref">ст. 3 ч. 3–4</span>.
+        Той самий принцип у Німеччині закріплено в конституції<span class="ref">ст. 103 II GG</span>.</li>
+      <li><strong>Реалізація норми:</strong> для громадянина — дотримання заборони, для держави — застосування:
+        вирок суду в конкретній справі.</li>
+    </ul>
+  </div>
+  <span class="slide__kicker">ст. 361 КК · Практичне 2</span>
+  <span class="slide__num"></span>
+</section>
+
+<!-- 19 -->
+<section class="slide">
+  <div class="rule"></div>
+  <h1 class="title">Та сама заборона в німецькому праві</h1>
+  <div class="body">
+    <div class="vs" style="margin-bottom:24px">
+      <div class="vs__side">
+        <p class="vs__head">Україна · ст. 361 КК</p>
+        <ul>
+          <li>Одна стаття охоплює і доступ, і наслідки: витік, блокування, шкоду</li>
+          <li>Базовий склад без позбавлення волі — кримінальний проступок</li>
+          <li>Окремий особливо тяжкий склад для воєнного стану</li>
+          <li>Прямий виняток для пошуку вразливостей (ч. 6)</li>
+        </ul>
+      </div>
+      <div class="vs__side vs__side--muted">
+        <p class="vs__head">Німеччина · StGB</p>
+        <ul>
+          <li><strong>§ 202a</strong> — доступ до захищених даних з подоланням захисту: до 3 років позбавлення волі або штраф</li>
+          <li><strong>§ 303b</strong> — комп'ютерний саботаж: до 3 років; щодо підприємства чи органу влади — до 5;
+            особливо тяжкі випадки — від 6 місяців до 10 років; замах караний</li>
+        </ul>
+      </div>
+    </div>
+    <p style="font-size:20px;line-height:1.5;color:var(--ink-soft);margin:0;max-width:46em">Спільне: обидві системи
+      будують кваліфіковані склади, де санкція росте з обставинами, і дають суду альтернативу між
+      штрафом і позбавленням волі.</p>
+  </div>
+  <span class="slide__kicker">ст. 361 КК · Практичне 2</span>
+  <span class="slide__num"></span>
+</section>
+
+<!-- 20 -->
+<section class="slide">
+  <div class="rule"></div>
+  <h1 class="title">Використані джерела</h1>
+  <div class="body">
+    <ol class="srcs" style="--rows:7">
+      <li><b>Grundgesetz</b> (23.05.1949), ст. 19, 20, 23, 25, 28, 31, 70–82, 92, 94, 95, 97, 100–103 — gesetze-im-internet.de</li>
+      <li><b>BGBl. 2024 I Nr. 439</b> — нова редакція ст. 93 і 94 Основного Закону</li>
+      <li><b>BVerfGG</b> § 31, § 90; <b>DRiG</b> § 5, § 5b; <b>StGB</b> § 202a, § 303b — gesetze-im-internet.de</li>
+      <li><b>BVerfG</b>, рішення від 30.06.2009, 2 BvE 2/08 («Лісабон») — пріоритет права ЄС</li>
+      <li><b>Verkündungs- und Bekanntmachungsgesetz</b> (2022) — електронний Bundesgesetzblatt</li>
+      <li><b>EGBGB</b> ст. 1, <b>EGHGB</b> ст. 1 — набрання чинності BGB і HGB</li>
+      <li><b>Bundesamt für Justiz</b> — Richterstatistik 2024</li>
+      <li><b>Deutscher Bundestag</b>, hib — кількість чинних законів і постанов (24.05.2024)</li>
+      <li><b>bpb</b> — Handwörterbuch des politischen Systems: «Gerichte», «Rechtsstaat»</li>
+      <li><b>Кримінальний кодекс України</b>, ст. 3, 12, 18, 19, 22, 361 — zakon.rada.gov.ua</li>
+      <li><b>Податковий кодекс України</b>, пп. 169.1.1, п. 5 підрозд. 1 розд. XX — розмір НМДГ</li>
+      <li><b>Закон про Державний бюджет України на 2026 рік</b>, ст. 7 — прожитковий мінімум</li>
+      <li><b>Права і свободи людини</b> : навч. посібник. КПІ ім. Ігоря Сікорського, 2023 — тема 2.1</li>
+      <li>Фотографії — Wikimedia Commons, вільні ліцензії (автори на слайдах)</li>
+    </ol>
+  </div>
+  <span class="slide__kicker">Практичне 2</span>
+  <span class="slide__num"></span>
+</section>
+
+<script src="../../shared/deck.js"></script>
+</body>
+</html>
