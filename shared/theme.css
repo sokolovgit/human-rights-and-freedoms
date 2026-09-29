@@ -653,6 +653,20 @@ ol.srcs li b { color: var(--ink); font-weight: 620; }
 .slide--photo .hero    { color: #fff; }
 .slide--photo .lead    { color: rgba(255,255,255,.80); }
 .slide--photo .eyebrow { color: #9dbaff; }
+
+/* ---------- Cover byline: author and discipline ---------- */
+.byline {
+  margin: 40px 0 0;
+  padding-top: 18px;
+  border-top: 1px solid var(--rule);
+  max-width: 34em;
+  font-size: 19px;
+  line-height: 1.5;
+  color: var(--ink-soft);
+}
+.byline b { color: var(--ink); font-weight: 620; }
+.slide--photo .byline   { color: rgba(255,255,255,.78); border-top-color: rgba(255,255,255,.28); }
+.slide--photo .byline b { color: #fff; }
 .slide--photo .slide__num,
 .slide--photo .slide__kicker { color: rgba(255,255,255,.55); }
 
